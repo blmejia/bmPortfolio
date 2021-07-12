@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SD Multimedia - Portfolio</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
+   
+  </head>
+  <body>
+
+     <div class="mobile-theme">
+         <div class="section header-mobile">
+             <div class="button is-small"><a href="mailto:shantelldigital@gmail.com?">Email</a>  
+                
+                </div>
+                <div class="button is-small"><a href="/img/shantell.jpg" download>Resume</a></div>
+
+             
+             <div class="icon" onclick="myFunction()">
+                <i  id="moon" class="far fa-moon fa-2x"></i>
+             </div>
+         </div>
+<!------MODAL------>
+         <div class="modal" id="modal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">About me :')</p>
+              <button class="delete" id="closeM" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+              <div class="title is-size-4">Focus and Passions</div>
+              <p>I am multimedia journalist with experience creating digital content and short docu-series. In my work I am committed to introducing sociological concepts into my productions, being BIPOC I share a similar worldview and life experience with so many others that may not get the same opportunity to speak and share the realities of their lives. My work and productions allows me to bridge that gap and let our experiences be known to the world. </p>
+              
+              <br>
+              <div class="title is-size-4">Current work and Experience</div>
+              <p>Currently I am doing freelance social media management, through networking and sites like Fiverr I gain my clients. Throughout my time at Emory University and experiences through various internships and radio shows I became Well-versed in video editing and other programs, here are some that I use: </p>
+              <br>
+              <ul>
+                <li>Adobe Premier Pro</li>
+                <li>Final Cut Pro</li>
+                <li>Hitlfilm Pro</li>
+                <li>Adobe Photoshop</li>
+                <li>Canva</li>
+              </ul>
+            </section>
+            <footer class="modal-card-foot">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </footer>
+          </div>
+        </div>
+<!------MODAL------>
+         <div class="landing-area-mobile " data-aos="fade-up"
+         data-aos-duration="1000">
+             <div class=" profile-mobile ">
+                    <div class="typewriter">
+                      <h1 class="has-text-dark" id="text">Shantell Dasilva.</h1>
+                    </div>     
+                    <div class="break"></div>
+                    <div class="subtitle has-text-centered" id="subtitle">Multimedia Journalist & Social Media Strategist</div>
+                </div>
+
+                <div class="break"></div>
+                    <div class="section profile-text">
+                    <figure class="image is-128x128">
+                        <img class="" src="../img/shantell.jpg">
+                      </figure>
+                     
+                   
+                </div>
+                <div class="break"></div>
+                <div class="button about" id="btn" onclick="openM(event)">About Me</div>
+                   
+                      
+                <div class="profile-text has-text-centered">
+                    
+
+
+                <div id="social-icons-mobile"></div>
+             </div>
+
+         </div>
+
+    
+         <div class="tabs is-centered is-toggle" >
+            <ul>
+              <li class="tab is-active" onclick="openTab(event, 'ecom')"><a>Films</a></li>
+              <li class="tab" onclick="openTab(event, 'other')"><a>Editorials</a></li>
+              
+            </ul>
+          </div>
+
+         <div class="ecommerce-projects-mobile content-tab" id='ecom'  >
+           <div class="cards columns is-tablet">
+            <div class="card 1" >
+                <header class="card-header">
+                  <p class="card-header-title">
+                    
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 2">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 2
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 3">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 3
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+            </div>
+         </div>
+
+
+        
+         <div class="projects-mobile content-tab" id='other' style="display: none" >
+          <div class="cards columns">
+             <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Why Redlining Has Affected Everything and Anything
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="img/redlining.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="https://theemeraldmagazine.com/why-redlining-has-affected-everything-and-anything/" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 2" >
+                <header class="card-header">
+                  <p class="card-header-title">
+                    What You Need to Know About Qualified Immunity
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="img/qualifiedimmunity.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="https://theemeraldmagazine.com/what-you-need-to-know-about-qualified-immunity/" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 3">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Why The Term BIPOC Has Swept The Nation
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="img/bipoc.jpg" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="https://theemeraldmagazine.com/why-the-term-bipoc-has-swept-the-nation/" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+                  </div>
+
+                  <div class="card 4">
+                    <header class="card-header">
+                      <p class="card-header-title">
+                        Rico Nasty Falls Behind EarthGang at Emory Homecoming
+                      </p>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                          <img src="img/rico.jpg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                            <div class="content">
+                            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                            </div>
+                     </div>
+                     <footer class="card-footer">
+                        <a href="https://emorywheel.com/rico-nasty-falls-behind-earthgang-at-emory-homecoming/" class="card-footer-item">Link</a>
+                        
+                        
+                      </footer>
+                      </div>
+              </div>
+         </div>
+         <div class="footer-mobile">
+
+         </div>
+        </div>
+     </div>
+
+
+
+     
+     <script>
+        function myFunction() {
+           var ebody = document.body;
+           ebody.classList.toggle("has-background-dark");
+           var text = document.getElementById("text");
+           text.classList.toggle("has-text-white-bis");
+ 
+        }
+        
+        </script>
+        <script>
+            AOS.init();
+          </script>
+        <script src="/main.js"></script>
+  </body>
+</html>

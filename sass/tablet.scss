@@ -1,0 +1,80 @@
+@media screen 
+  and (min-device-width: 671px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      
+      
+.landing-area-mobile{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  width: fit-content;
+  //background-color: blue;
+
+    .profile-mobile{
+        
+        height: auto;
+        width: fit-content;
+       // 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-template-rows: auto;
+        .typewriter{
+            
+            h1{
+                overflow: hidden;
+                border-right:  .15em solid black;
+                margin: 0 auto;
+                letter-spacing: .15em;
+                animation: typing 2.5s steps(25, end),
+                blink-caret .5s step-end infinite;
+                height: auto;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+               
+            }
+            @keyframes typing {
+                from{ width: 0px}
+                to {width: 100%}
+            }
+            @keyframes blink-caret {
+                from, to {border-color: transparent}
+                50% {border-color: black}
+                
+            }
+        }
+       
+        
+        
+      
+        
+    }
+    .profile-text{
+      display: flex;
+      justify-content: flex-start;
+      
+      flex-wrap: wrap;
+     // background-color: red;
+      height: auto;
+
+      img{
+          border-radius: 15%;
+          border: solid .5px black;
+         
+      }
+      .about{
+          margin-top: 15px;
+      }
+   }
+}
+    
+      
+  }
+
