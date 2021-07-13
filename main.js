@@ -34,3 +34,15 @@ function openTab(evt, tabName){
     closeLabel.addEventListener('click', () => {
         modal.classList.remove('is-active');
     })
+
+    //////////////DARK MODE//////////////
+    //grab all elements we want to make dark
+    //-background, text, modal, cards
+
+    const moon = document.querySelector("#moon");
+
+    moon.addEventListener("click", () =>{
+        moon.className.replace
+        ( /(?:^|\s)far fa-moon(?!\S)/g , 'fas fa-sun' )
+       
+    })
