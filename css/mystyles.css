@@ -2,6 +2,82 @@
 body {
   margin: 5%; }
 
+@media screen and (min-device-width: 671px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card {
+    width: 500px !important;
+    height: fit-content !important; }
+  .header-mobile {
+    margin-bottom: 7%; }
+  .landing-area-mobile {
+    margin-bottom: 0; }
+  .tabs {
+    margin-top: 0% !important; }
+  .mobile-theme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .projects-mobile {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .projects-mobile .cards {
+      height: auto;
+      width: auto; }
+      .projects-mobile .cards .card {
+        width: 500px !important;
+        height: fit-content !important; } }
+
+@media screen and (min-device-width: 671px) and (-webkit-min-device-pixel-ratio: 1) {
+  .landing-area-mobile {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    width: fit-content; }
+    .landing-area-mobile .profile-mobile {
+      height: auto;
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      grid-template-rows: auto; }
+      .landing-area-mobile .profile-mobile .typewriter h1 {
+        overflow: hidden;
+        border-right: .15em solid black;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 2.5s steps(25, end), blink-caret 0.5s step-end infinite;
+        height: auto;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold; }
+  @keyframes typing {
+    from {
+      width: 0px; }
+    to {
+      width: 100%; } }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent; }
+    50% {
+      border-color: black; } }
+    .landing-area-mobile .profile-text {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      height: auto; }
+      .landing-area-mobile .profile-text img {
+        border-radius: 15%;
+        border: solid .5px black; }
+      .landing-area-mobile .profile-text .about {
+        margin-top: 15px; } }
+
 .break {
   flex-basis: 100%;
   height: 0; }
@@ -7389,51 +7465,3 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
-
-@media screen and (min-device-width: 671px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .landing-area-mobile {
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
-    width: fit-content; }
-    .landing-area-mobile .profile-mobile {
-      height: auto;
-      width: fit-content;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      grid-template-rows: auto; }
-      .landing-area-mobile .profile-mobile .typewriter h1 {
-        overflow: hidden;
-        border-right: .15em solid black;
-        margin: 0 auto;
-        letter-spacing: .15em;
-        animation: typing 2.5s steps(25, end), blink-caret 0.5s step-end infinite;
-        height: auto;
-        white-space: nowrap;
-        color: black;
-        font-weight: bold; }
-  @keyframes typing {
-    from {
-      width: 0px; }
-    to {
-      width: 100%; } }
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent; }
-    50% {
-      border-color: black; } }
-    .landing-area-mobile .profile-text {
-      display: flex;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-      height: auto; }
-      .landing-area-mobile .profile-text img {
-        border-radius: 15%;
-        border: solid .5px black; }
-      .landing-area-mobile .profile-text .about {
-        margin-top: 15px; } }

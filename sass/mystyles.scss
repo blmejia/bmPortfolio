@@ -29,6 +29,66 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+
+@media screen 
+  and (min-device-width: 671px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.card{
+    width: 500px !important;
+    height: fit-content !important;
+}
+
+
+
+.header-mobile{
+    margin-bottom: 7%;
+}
+
+.landing-area-mobile{
+    margin-bottom: 0;
+}
+
+.tabs{
+    margin-top: 0% !important;
+}
+
+
+
+      .mobile-theme{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          //height: auto;
+          width: 100%;
+      }
+      .projects-mobile{
+          height: auto;
+         // background-color: red;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          
+          //flex-wrap: nowrap;
+          //margin-left: 500px;
+
+          .cards{
+              
+              height: auto;
+              width: auto;
+
+              .card{
+                  width: 500px !important;
+                  height: fit-content !important;
+              }
+              
+          }
+          
+      }
+  }
+
+
+
 // Import only what you need from Bulma
 // @import "../node_modules/bulma/sass/utilities/_all.sass";
 // @import "../node_modules/bulma/sass/base/_all.sass";
@@ -39,8 +99,9 @@ $input-shadow: none;
 // @import "../node_modules/bulma/sass/components/navbar.sass";
 // @import "../node_modules/bulma/sass/layout/hero.sass";
 // @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../sass/tablet.scss";
 @import "../sass/mobilestyles.scss";
 @import "../node_modules/bulma/bulma.sass";
-@import "../sass/tablet.scss";
+
 
 //

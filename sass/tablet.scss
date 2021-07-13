@@ -1,6 +1,6 @@
 @media screen 
   and (min-device-width: 671px) 
-  and (max-device-width: 1024px) 
+  
   and (-webkit-min-device-pixel-ratio: 1) {
 
       
@@ -74,13 +74,13 @@
       }
    }
 }
+
+
     /////////card-footer
       
 
 
-    .card-footer{
-        height: fit-content;
-    }
+    
 
 
   }
